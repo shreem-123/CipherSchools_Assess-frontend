@@ -9,8 +9,13 @@ export default function Navbar() {
                 <h2>Hello.</h2>
                 <h3>Shreem Asati</h3>
             </div>
-            <div className="notifi">
+            {/* <div className="notifi">
                 <BellOutlined size={22} className="bell_icon" />
+            </div> */}
+            <div className='followers'>
+            </div>
+            <div>
+
             </div>
 
         </>

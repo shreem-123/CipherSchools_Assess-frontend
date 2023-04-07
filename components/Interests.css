@@ -1,0 +1,82 @@
+.upper_row {
+    justify-content: space-between;
+    margin-bottom: 0.75rem;
+    padding-inline: 1rem;
+    margin-bottom: 1rem;
+  }
+  .upper_row h4 {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #eee;
+  }
+  .upper_row button {
+    background-color: #f3912e;
+    border: none;
+    padding: 0.25rem 1.5rem;
+    color: #eee;
+    border-radius: 0.3rem;
+    font-size: 0.8rem;
+    cursor: pointer;
+  }
+  .upper_row button :hover {
+    background-color: #f3902ec2;
+  }
+  .modal_background {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.4);
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(1px);
+    z-index: 999;
+  }
+  .modal_main_container {
+    position: fixed;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    z-index: 9999;
+    background-color: #eee;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  @media only screen and (max-width: 460px) {
+    .modal_main_container {
+      width: 100%;
+    }
+  }
+  .modal_main_container .list_container {
+    gap: 1.5rem;
+  }
+  .modal_main_container li {
+    list-style: none;
+    font-size: 0.8rem;
+    color: #eee;
+    background-color: background-dark;
+    width: 13rem;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    justify-content: flex-start;
+    padding-left: 1.25rem;
+    cursor: pointer;
+  }
+  .active {
+    background-color: accent;
+  }
+  .bottom_row {
+    justify-content: flex-end;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+  .bottom_row .btn {
+    padding: 0.25rem 1.5rem;
+    border-radius: 0.3rem;
+    border: none;
+  }
+  .bottom_row .btn:nth-child(2) {
+    background-color: accent;
+    color: #eee;
+  }
+  

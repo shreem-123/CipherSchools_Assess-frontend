@@ -21,34 +21,34 @@ export function Socials() {
         <div className={"row_container"}>
           <Input
             disabled={disabled}
-            img="/social media/linkedin.svg"
+            img="/social_media/facebook.png"
             title="Linkedin"
           />
           <Input
             disabled={disabled}
-            img="/social media/github.svg"
+            img="/social_media/github.png"
             title="Github"
           />
           <Input
             disabled={disabled}
-            img="/social media/facebook.svg"
+            img="/social_media/facebook.png"
             title="Facebook"
           />
         </div>
         <div className={"row_container"}>
           <Input
             disabled={disabled}
-            img="/social media/twitter.svg"
+            img="/social_media/twitter.png"
             title="Twitter"
           />
           <Input
             disabled={disabled}
-            img="/social media/instagram.svg"
+            img="/social_media/instagram.png"
             title="Instagram"
           />
           <Input
             disabled={disabled}
-            img="/social media/website.svg"
+            img="/social_media/website.png"
             title="Website"
           />
         </div>

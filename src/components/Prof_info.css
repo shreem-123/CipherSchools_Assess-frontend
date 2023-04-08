@@ -1,16 +1,16 @@
 .container {
     margin: 1rem;
   }
-  .upper_row {
+.upper_row {
     justify-content: space-between;
     margin-bottom: 0.75rem;
   }
-  .upper_row h4 {
+.upper_row h4 {
     font-size: 0.9rem;
     font-weight: 700;
     color: #eee;
   }
-  .upper_row button {
+.upper_row button {
     background-color: #f3912e;
     border: none;
     padding: 0.25rem 1.5rem;

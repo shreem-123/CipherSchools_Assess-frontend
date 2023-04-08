@@ -1,7 +1,17 @@
-import './App.css'
+import "./App.scss";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { FollowersPage } from "./pages/FollowersPage/FollowersPage";
+import { HomePage } from "./pages/HomePage/HomePage";
 
 function App() {
-  return <h1>Hi Mom</h1>
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="followers" element={<FollowersPage />} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;

@@ -1,6 +1,11 @@
 .container {
     margin-inline: 1rem;
   }
+
+.img{
+  direction: flex-start;
+  /* padding: ; */
+}
   .upper_row {
     justify-content: space-between;
     margin-bottom: 0.75rem;
@@ -28,6 +33,7 @@
   @media only screen and (max-width: 750px) {
     .main_row {
       flex-direction: column;
+      /* background-color: #f70606; */
     }
   }
   .row_container {

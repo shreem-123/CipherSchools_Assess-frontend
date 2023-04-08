@@ -1,0 +1,36 @@
+.container {
+    padding: 1rem;
+  }
+  .container .content {
+    display: grid;
+    grid-row-gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    justify-content: space-between;
+    padding-block: 1rem;
+  }
+  .follower_container {
+    background-color: #424141;
+    width: 12rem;
+    padding: 1rem;
+    flex-direction: column;
+    border-radius: 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .follower_container .userimg {
+    width: 6rem;
+    height: 6rem;
+  }
+  .follower_container .name {
+    margin-top: 1rem;
+    font-weight: 500;
+    font-size: 1.1rem;
+  }
+  .follower_container button {
+    background-color: accent;
+    border: none;
+    padding: 0.4rem 1.2rem;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+  }
+  

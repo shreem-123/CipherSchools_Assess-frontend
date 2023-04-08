@@ -1,6 +1,6 @@
-import { Input } from "./templates/Input/Input";
+import { Input } from "../templates/Input/Input";
 import { useState } from "react";
-import './social.css'
+import '../components/social.css'
 import React from "react";
 
 export function Socials() {
@@ -11,14 +11,14 @@ export function Socials() {
   }
 
   return (
-    <div className={"container"}>
-      <div className={"upper_row"}>
+    <div className="container">
+      <div className="upper_row">
         <h4>ON THE WEB</h4>
         <button onClick={handleEditClick}>{disabled ? "Edit" : "Save"}</button>
       </div>
 
-      <div className={"main_row"}>
-        <div className={"row_container"}>
+      <div className="main_row">
+        <div className="row_container">
           <Input
             disabled={disabled}
             img="/social_media/facebook.png"
@@ -35,7 +35,7 @@ export function Socials() {
             title="Facebook"
           />
         </div>
-        <div className={"row_container"}>
+        <div className="row_container">
           <Input
             disabled={disabled}
             img="/social_media/twitter.png"
@@ -53,7 +53,7 @@ export function Socials() {
           />
         </div>
       </div>
-      <div className={"line"} />
+      <div className="line" />
     </div>
   );
 }

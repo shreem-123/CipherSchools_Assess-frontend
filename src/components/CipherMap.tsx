@@ -62,7 +62,7 @@ export function CipherMap() {
               x="0"
               y="66"
               className="color-cs-0"
-              data-tip="0 Cipher Points on Saturday, Mar 26, 2022"
+              data-tip="0 Cipher Points on Saturday,Apr 07, 2023"
             >
               <title></title>
             </rect>
@@ -77,7 +77,7 @@ export function CipherMap() {
               x="0"
               y="0"
               className="color-cs-0"
-              data-tip="0 Cipher Points on Sunday, Mar 27, 2022"
+              data-tip="0 Cipher Points on Sunday,Apr 08,2023"
             >
               <title></title>
             </rect>
@@ -87,7 +87,7 @@ export function CipherMap() {
               x="0"
               y="11"
               className="color-cs-0"
-              data-tip="0 Cipher Points on Monday, Mar 28, 2022"
+              data-tip="0 Cipher Points on Monday,Apr 09,2023"
             >
               <title></title>
             </rect>
@@ -97,7 +97,7 @@ export function CipherMap() {
               x="0"
               y="22"
               className="color-cs-0"
-              data-tip="0 Cipher Points on Tuesday, Mar 29, 2022"
+              data-tip="0 Cipher Points on Tuesday,Apr 10,2023"
             >
               <title></title>
             </rect>
@@ -107,7 +107,7 @@ export function CipherMap() {
               x="0"
               y="33"
               className="color-cs-0"
-              data-tip="0 Cipher Points on Wednesday, Mar 30, 2022"
+              data-tip="0 Cipher Points on Wednesday,Apr 11,2023"
             >
               <title></title>
             </rect>
@@ -117,7 +117,7 @@ export function CipherMap() {
               x="0"
               y="44"
               className="color-cs-0"
-              data-tip="0 Cipher Points on Thursday, Mar 31, 2022"
+              data-tip="0 Cipher Points on Thursday, Apr 12,2023"
             >
               <title></title>
             </rect>
@@ -127,7 +127,7 @@ export function CipherMap() {
               x="0"
               y="55"
               className="color-cs-0"
-              data-tip="0 Cipher Points on Friday, Apr 1, 2022"
+              data-tip="0 Cipher Points on Friday, Apr 13,2023"
             >
               <title></title>
             </rect>
@@ -137,7 +137,7 @@ export function CipherMap() {
               x="0"
               y="66"
               className="color-cs-0"
-              data-tip="0 Cipher Points on Saturday, Apr 2, 2022"
+              data-tip="0 Cipher Points on Saturday, Apr 14, 2023"
             >
               <title></title>
             </rect>
@@ -152,7 +152,7 @@ export function CipherMap() {
               x="0"
               y="0"
               className="color-cs-0"
-              data-tip="0 Cipher Points on Sunday, Apr 3, 2022"
+              data-tip="0 Cipher Points on Sunday, Apr 15, 2023"
             >
               <title></title>
             </rect>
@@ -162,7 +162,7 @@ export function CipherMap() {
               x="0"
               y="11"
               className="color-cs-0"
-              data-tip="0 Cipher Points on Monday, Apr 4, 2022"
+              data-tip="0 Cipher Points on Monday, Apr 16, 2023"
             >
               <title></title>
             </rect>
@@ -172,7 +172,7 @@ export function CipherMap() {
               x="0"
               y="22"
               className="color-cs-0"
-              data-tip="0 Cipher Points on Tuesday, Apr 5, 2022"
+              data-tip="0 Cipher Points on Tuesday, Apr 17, 2023"
             >
               <title></title>
             </rect>
@@ -182,7 +182,7 @@ export function CipherMap() {
               x="0"
               y="33"
               className="color-cs-0"
-              data-tip="0 Cipher Points on Wednesday, Apr 6, 2022"
+              data-tip="0 Cipher Points on Wednesday, Apr 18, 2023"
             >
               <title></title>
             </rect>
@@ -192,7 +192,7 @@ export function CipherMap() {
               x="0"
               y="44"
               className="color-cs-0"
-              data-tip="0 Cipher Points on Thursday, Apr 7, 2022"
+              data-tip="0 Cipher Points on Thursday, Apr 19, 2023"
             >
               <title></title>
             </rect>
@@ -202,7 +202,7 @@ export function CipherMap() {
               x="0"
               y="55"
               className="color-cs-0"
-              data-tip="0 Cipher Points on Friday, Apr 8, 2022"
+              data-tip="0 Cipher Points on Friday, Apr 20, 2023"
             >
               <title></title>
             </rect>
@@ -212,7 +212,7 @@ export function CipherMap() {
               x="0"
               y="66"
               className="color-cs-0"
-              data-tip="0 Cipher Points on Saturday, Apr 9, 2022"
+              data-tip="0 Cipher Points on Saturday, Apr 21, 2023"
             >
               <title></title>
             </rect>
@@ -227,7 +227,7 @@ export function CipherMap() {
               x="0"
               y="0"
               className="color-cs-0"
-              data-tip="0 Cipher Points on Sunday, Apr 10, 2022"
+              data-tip="0 Cipher Points on Sunday, Apr 22, 2023"
             >
               <title></title>
             </rect>
@@ -237,7 +237,7 @@ export function CipherMap() {
               x="0"
               y="11"
               className="color-cs-0"
-              data-tip="0 Cipher Points on Monday, Apr 11, 2022"
+              data-tip="0 Cipher Points on Monday, Apr 23, 2023"
             >
               <title></title>
             </rect>
@@ -247,7 +247,7 @@ export function CipherMap() {
               x="0"
               y="22"
               className="color-cs-0"
-              data-tip="0 Cipher Points on Tuesday, Apr 12, 2022"
+              data-tip="0 Cipher Points on Tuesday, Apr 24, 2023"
             >
               <title></title>
             </rect>
@@ -257,7 +257,7 @@ export function CipherMap() {
               x="0"
               y="33"
               className="color-cs-0"
-              data-tip="0 Cipher Points on Wednesday, Apr 13, 2022"
+              data-tip="0 Cipher Points on Wednesday, Apr 25, 2023"
             >
               <title></title>
             </rect>
@@ -267,7 +267,7 @@ export function CipherMap() {
               x="0"
               y="44"
               className="color-cs-0"
-              data-tip="0 Cipher Points on Thursday, Apr 14, 2022"
+              data-tip="0 Cipher Points on Thursday, Apr 26, 2023"
             >
               <title></title>
             </rect>
@@ -277,7 +277,7 @@ export function CipherMap() {
               x="0"
               y="55"
               className="color-cs-0"
-              data-tip="0 Cipher Points on Friday, Apr 15, 2022"
+              data-tip="0 Cipher Points on Friday, Apr 27, 2023"
             >
               <title></title>
             </rect>
@@ -287,7 +287,7 @@ export function CipherMap() {
               x="0"
               y="66"
               className="color-cs-0"
-              data-tip="0 Cipher Points on Saturday, Apr 16, 2022"
+              data-tip="0 Cipher Points on Saturday, Apr 28, 2023"
             >
               <title></title>
             </rect>

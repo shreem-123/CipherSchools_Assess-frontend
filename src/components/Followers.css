@@ -1,4 +1,7 @@
 .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
     padding: 1rem;
   }
   .container .content {
@@ -9,7 +12,10 @@
     padding-block: 1rem;
   }
   .follower_container {
-    background-color: #424141;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+    background-color: #090000;
     width: 12rem;
     padding: 1rem;
     flex-direction: column;
@@ -27,7 +33,7 @@
     font-size: 1.1rem;
   }
   .follower_container button {
-    background-color: accent;
+    background-color: #424141;
     border: none;
     padding: 0.4rem 1.2rem;
     border-radius: 0.5rem;

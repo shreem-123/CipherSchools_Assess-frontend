@@ -1,0 +1,23 @@
+.container {
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    background-color: #262c36;
+    min-height: 3.5rem;
+    border-bottom: 1px solid rgba(0, 0, 0, );
+    padding-inline: 1rem;
+    justify-content: space-between;
+  }
+  .right_container {
+    gap: 1.5rem;
+  }
+  @media only screen and (max-width: 750px) {
+    .right_container {
+      gap: 1rem;
+   }
+  }
+  @media only screen and (max-width: 450px) {
+    .right_container {
+      gap: 0.5rem;
+   }
+}

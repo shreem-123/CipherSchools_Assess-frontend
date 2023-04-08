@@ -1,7 +1,7 @@
-import "./App.scss";
+import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { FollowersPage } from "./pages/FollowersPage/FollowersPage";
-import { HomePage } from "./pages/HomePage/HomePage";
+import { FollowersPage } from "./Pages/FollowersPage";
+import { HomePage } from "./Pages/HomePage";
 
 function App() {
   return (

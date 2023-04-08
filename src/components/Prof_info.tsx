@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { Select } from "../templates/Select/Select";
 import "../components/Prof_info.css";
-import React from "react";
 
 export function ProfessionalInfo() {
   const [disabled, setDisabled] = useState(true);

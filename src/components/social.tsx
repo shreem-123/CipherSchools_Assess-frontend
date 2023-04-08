@@ -1,7 +1,6 @@
 import { Input } from "../templates/Input/Input";
 import { useState } from "react";
 import '../components/social.css'
-import React from "react";
 
 export function Socials() {
   const [disabled, setDisabled] = useState(true);

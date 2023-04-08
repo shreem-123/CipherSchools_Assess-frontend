@@ -1,0 +1,28 @@
+.container-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container-logo img {
+    width: 2.2rem;
+    height: 2.2rem;
+  }
+  @media only screen and (max-width: 450px) {
+    .container-logo img {
+      margin-right: 1rem;
+   }
+  }
+  .container-logo .logo_text {
+    transform: translateY(1px);
+    font-family: sans-serif !important;
+    padding-left: 3px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #eee;
+  }
+  @media only screen and (max-width: 450px) {
+    .container-logo .logo_text {
+      display: none;
+   }
+  }
+  

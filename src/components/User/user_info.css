@@ -1,0 +1,27 @@
+.img_container {
+    background-image: url("public/userinfo_bg-dark.png");
+    background-size: cover;
+    border: none;
+}
+.main_container {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    background: linear-gradient(to right, #262c36, transparent, #262c36);
+    min-height: 5rem;
+    max-width: 100vw;
+    padding-inline: 1rem;
+}
+.followers {
+    font-weight: 500;
+    color: #eee;
+    cursor: pointer;
+}
+@media only screen and (max-width: 450px) {
+    .followers {
+        display: none;
+   }
+}

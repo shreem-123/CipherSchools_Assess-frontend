@@ -6,7 +6,7 @@
     min-width: 100%;
     border: none;
     outline: none;
-    background-color: #eee;
+    background-color: #0c0000;
     padding-right: 1rem;
     padding-left: 1rem;
     color: #eee;
@@ -16,10 +16,10 @@
     margin-bottom: 0.5rem;
   }
   select :disabled {
-    background-color: #eee;
+    background-color: #0a0000;
   }
   .option {
-    background-color: #eee;
+    background-color: #0b0000;
     color: #eee;
     font-size: 16px;
     border-radius: 5px;

@@ -2,11 +2,10 @@
     margin-inline: 1rem;
   }
 
-.img{
-  direction: flex-start;
-  /* padding: ; */
-}
   .upper_row {
+    display: flex;
+  justify-content: center;
+  align-items: center;
     justify-content: space-between;
     margin-bottom: 0.75rem;
   }
@@ -27,6 +26,9 @@
     background-color: #f3902ec2;
   }
   .main_row {
+    display: flex;
+  justify-content: center;
+  align-items: center;
     justify-content: space-between;
     margin-bottom: 1rem;
   }

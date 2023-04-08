@@ -1,4 +1,7 @@
 .upper_row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
     justify-content: space-between;
     margin-bottom: 0.75rem;
     padding-inline: 1rem;
@@ -53,19 +56,25 @@
     list-style: none;
     font-size: 0.8rem;
     color: #eee;
-    background-color: background-dark;
+    background-color: #373636;
     width: 13rem;
     height: 2.5rem;
     border-radius: 0.5rem;
     margin-bottom: 1rem;
+    display: flex;
+  justify-content: center;
+  align-items: center;
     justify-content: flex-start;
     padding-left: 1.25rem;
     cursor: pointer;
   }
   .active {
-    background-color: accent;
+    background-color: #f3912e;
   }
   .bottom_row {
+    display: flex;
+  justify-content: center;
+  align-items: center;
     justify-content: flex-end;
     gap: 0.5rem;
     margin-top: 1rem;
@@ -76,7 +85,7 @@
     border: none;
   }
   .bottom_row .btn:nth-child(2) {
-    background-color: accent;
+    background-color: #f3912e;
     color: #eee;
   }
   

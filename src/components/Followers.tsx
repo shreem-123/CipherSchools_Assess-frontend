@@ -1,4 +1,3 @@
-import React from "react";
 import "./Followers.css";
 import data from "./data.json";
 

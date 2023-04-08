@@ -2,38 +2,38 @@
     {
       "followersCount": 5,
       "profession": "College Student",
-      "img": "https://picsum.photos/200",
-      "name": "Rahul Jain"
+      "img": "/profile.png",
+      "name": "Shreem Asati"
     },
     {
       "followersCount": 7,
       "profession": "Student",
-      "img": "https://picsum.photos/300",
-      "name": "John Smith"
+      "img": "/social_media/profile.png",
+      "name": "Nishant Singh"
     },
     {
       "followersCount": 19,
       "profession": "Teacher",
-      "img": "https://picsum.photos/100",
-      "name": "Sara Lee"
+      "img": "/social_media/profile.png",
+      "name": "Swati Anand"
+    },
+    {
+      "followersCount": 10,
+      "profession": "Freelancing",
+      "img": "/social_media/profile.png",
+      "name": "Md Arish"
     },
     {
       "followersCount": 10,
       "profession": "Teacher",
-      "img": "https://picsum.photos/201",
-      "name": "Alex Johnson"
+      "img": "/social_media/profile.png",
+      "name": "Arya Sharma"
     },
     {
       "followersCount": 10,
-      "profession": "Teacher",
-      "img": "https://picsum.photos/201",
-      "name": "Alex Johnson"
-    },
-    {
-      "followersCount": 10,
-      "profession": "Teacher",
-      "img": "https://picsum.photos/201",
-      "name": "Alex Johnson"
+      "profession": "Job",
+      "img": "/social_media/profile.png",
+      "name": "Harshita"
     }
   ]
   

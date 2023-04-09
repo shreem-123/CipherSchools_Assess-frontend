@@ -1,9 +1,10 @@
 .img_container-info {
-    background-image: url("public/userinfo_bg-dark.png");
+    background-image: url("/userinfo_bg-dark.png");
     background-size: cover;
     border: none;
 }
 .main_container-info {
+    display: flex;
     /* display: flex; */
   /* justify-content: center; */
     /* align-items: center; */

@@ -4,7 +4,7 @@ import {SearchOutlined} from '@ant-design/icons';
 export function SearchBox() {
     return (
       <div className={"container-search"}>
-        <SearchOutlined size={16} className={"icon"} />
+        <SearchOutlined size={16} className={"search-icon"} />
         <input placeholder="Search and Learn" />
         {/* <CgOptions color="#fff" size={18} className={"icon"} /> */}
       </div>

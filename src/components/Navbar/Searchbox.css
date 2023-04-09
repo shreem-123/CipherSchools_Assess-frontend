@@ -12,7 +12,7 @@
         display: none;
    }
 }
-.container-search .icon {
+.container-search .search-icon {
     fill: #fff;
     transform: translateY(2px);
 }

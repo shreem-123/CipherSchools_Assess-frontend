@@ -1,4 +1,4 @@
-import './Navbar.css';
+import './NavBar.css';
 import { Logo } from "./Logo";
 import { SearchBox } from "./Searchbox";
 import {Bell} from "./Bell";

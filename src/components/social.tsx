@@ -18,14 +18,11 @@ export function Socials() {
 
       <div className="main_row-social">
         <div className="row_container-social">
-          <div className="tri" >
            <Input
            disabled={disabled}
-           img="/social_media/facebook.png"
+           img="/social_media/linkedin.png"
            title="LinkedIn"
          />
-          </div>
-          
           <Input
             disabled={disabled}
             img="/social_media/github.png"

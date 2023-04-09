@@ -2,7 +2,7 @@ import "./Input.css";
 
 export function Input({ img, title, disabled }: Props) {
   return (
-    <div className={"container"}>
+    <div className={"container-input"}>
       <p>{title}</p>
       <div className={"input_container"}>
         <img src={img} className={"icon"} alt={title} />

@@ -8,31 +8,31 @@
     {
       "followersCount": 7,
       "profession": "Student",
-      "img": "/social_media/profile.png",
+      "img": "profile.png",
       "name": "Nishant Singh"
     },
     {
       "followersCount": 19,
       "profession": "Teacher",
-      "img": "/social_media/profile.png",
+      "img": "profile.png",
       "name": "Swati Anand"
     },
     {
       "followersCount": 10,
       "profession": "Freelancing",
-      "img": "/social_media/profile.png",
+      "img": "profile.png",
       "name": "Md Arish"
     },
     {
       "followersCount": 10,
       "profession": "Teacher",
-      "img": "/social_media/profile.png",
+      "img": "profile.png",
       "name": "Arya Sharma"
     },
     {
       "followersCount": 10,
       "profession": "Job",
-      "img": "/social_media/profile.png",
+      "img": "profile.png",
       "name": "Harshita"
     }
   ]

@@ -26,12 +26,14 @@
     left: 1rem;
 }
 .edit_btn .edit_icon {
+    padding-bottom: 0px;
     fill: #eee;
 }
 .userinfo_container {
     color: #f9f5f5 e2;
 }
 .userinfo_container h2 {
+    color:#eee;
     font-size: 1.2rem;
 }
 .modal_background-user {

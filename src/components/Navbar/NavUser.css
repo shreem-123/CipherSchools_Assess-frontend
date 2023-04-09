@@ -1,9 +1,10 @@
 img {
+  margin-top: 10px;
     width: 1.5rem;
     height: 1.5rem;
     border-radius: 50%;
   }
 
 .user_container{
-  background-color: aliceblue;
+  background-color:  #262c36;
 }

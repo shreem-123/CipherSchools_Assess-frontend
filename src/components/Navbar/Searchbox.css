@@ -1,4 +1,6 @@
 .container-search {
+    display: flex;
+    margin-top:10px;
     background-color: #eaebed;
     height: 2.2rem;
     min-width: 16rem;
@@ -13,8 +15,9 @@
    }
 }
 .container-search .search-icon {
+    /* display: flex; */
     fill: #fff;
-    transform: translateY(2px);
+    transform: translateY(10px);
 }
 .container-search input {
     height: 100%;

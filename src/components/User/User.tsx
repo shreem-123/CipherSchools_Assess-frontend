@@ -53,10 +53,10 @@ export function User() {
           onClick={handleEditClick}
           className={"modal_background-user"}
         ></div>
-        <form className={"modal_form-user"}>
+        <form className="modal_form-user">
           <h4>Profile Update</h4>
-          <div className={"content"}>
-            <div className={`${"userimg_container"}`}>
+          <div className="content">
+            <div className="userimg_container">
               <img src={img.preview} className={"userimg_big"} />
               <input
                 type="file"

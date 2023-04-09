@@ -18,7 +18,7 @@ export function Interests() {
 
   return (
     <>
-      <div className="upper_row">
+      <div className="upper_row-int">
         <h4>INTERESTS</h4>
         <button onClick={handleEditClick}>Edit</button>
       </div>

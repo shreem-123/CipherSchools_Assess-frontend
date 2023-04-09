@@ -1,9 +1,9 @@
 .input_container {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center;
+  align-items: center; */
     position: relative;
-    background-color: rgb(251, 250, 252);
+    background-color:#0d0d0e;
     width: 100%;
     border-radius: 0.5rem;
     overflow: hidden;
@@ -23,7 +23,7 @@
     min-width: 100%;
     border: none;
     outline: none;
-    background-color: #eee;
+    background-color: #848585;
     padding-left: 3rem;
     padding-right: 2rem;
     box-sizing: border-box;

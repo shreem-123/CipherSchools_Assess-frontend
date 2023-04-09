@@ -4,8 +4,8 @@ import { User } from "./User";
 
 export function UserInfo() {
   return (
-    <div className={"img_container"}>
-      <div className={"main_container"}>
+    <div className={"img_container-info"}>
+      <div className={"main_container-info"}>
         <User />
         <Followers />
       </div>

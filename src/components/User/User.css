@@ -1,7 +1,9 @@
-.container {
+.container-user {
     display: flex;
+    flex-direction: row;
+    /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
     width: max-content;
     min-height: 5.5rem;
 }
@@ -16,9 +18,9 @@
 .edit_btn {
     width: 1.2rem;
     height: 1.2rem;
-    border: 1px solid rgba(0, 0, 0, );
+    border: 1px solid rgb(248, 190, 2);
     border-radius: 50%;
-    background-color: #262c36;
+    background-color: #fda902;
     position: absolute;
     bottom: -0.2rem;
     left: 1rem;
@@ -27,27 +29,27 @@
     fill: #eee;
 }
 .userinfo_container {
-    color: #eee e2;
+    color: #f9f5f5 e2;
 }
 .userinfo_container h2 {
     font-size: 1.2rem;
 }
-.modal_background {
+.modal_background-user {
     width: 100vw;
     height: 100vh;
     position: fixed;
-    background-color: rgba(0, 0, 0,);
+    background-color: rgb(243, 242, 242);
     top: 0;
     left: 0;
     backdrop-filter: blur(1px);
     z-index: 999;
 }
-.modal_form {
+.modal_form-user {
     position: fixed;
     padding: 1rem;
     border-radius: 1rem;
     z-index: 9999;
-    background-color: #262c36;
+    background-color: #f7f9fc;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -55,7 +57,7 @@
     align-items: flex-start;
 }
 @media only screen and (max-width: 460px) {
-    .modal_form {
+    .modal_form-user {
         width: 100%;
    }
 }
@@ -91,7 +93,7 @@
     font-size: 0.85rem;
 }
 .input_container li > input {
-    background-color: background-dark;
+    background-color: #383838;
     border: none;
     height: 2.2rem;
     padding-inline: 1rem;

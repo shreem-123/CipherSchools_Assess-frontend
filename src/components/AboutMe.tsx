@@ -10,8 +10,8 @@ export function AboutMe() {
   }
 
   return (
-    <div className={"container"}>
-      <div className={"upper_row"}>
+    <div className={"container-about"}>
+      <div className={"upper_row-about"}>
         <h4>ABOUT ME</h4>
         <button onClick={handleEditClick}>{disabled ? "Edit" : "Save"}</button>
       </div>
@@ -24,7 +24,7 @@ export function AboutMe() {
           <img src={"/pencil.svg"} className={"pencil_icon"} />
         )}
       </div>
-      <div className={"line"} />
+      <div className={"line-about"} />
     </div>
   );
 }

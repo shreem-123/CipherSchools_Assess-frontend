@@ -14,15 +14,15 @@ export function Password() {
   }
 
   return (
-    <div className="container">
-      <div className="upper_row">
+    <div className="container-pass">
+      <div className="upper_row-pass">
         <h4>PASSWORD & SECURITY</h4>
         <button onClick={handleChangeClick}>Change</button>
       </div>
 
       <p>Password</p>
       <input className="input" disabled value="* * * * * * * *" />
-      <div className={"line"} />
+      <div className={"line-pass"} />
       {modal && <PasswordModal />}
     </div>
   );

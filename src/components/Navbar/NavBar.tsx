@@ -10,9 +10,9 @@ import { ThemeButton } from "./ThemeButton";
 
 export function NavBar() {
     return (
-      <nav className="container">
+      <nav className="container-nav">
         <Logo />
-        <div className="right_container">
+        <div className="right_container-nav">
           <SearchBox />
           <Bell />
           <NavUser />

@@ -10,19 +10,22 @@ export function Socials() {
   }
 
   return (
-    <div className="container">
-      <div className="upper_row">
+    <div className="container-social">
+      <div className="upper_row-social">
         <h4>ON THE WEB</h4>
         <button onClick={handleEditClick}>{disabled ? "Edit" : "Save"}</button>
       </div>
 
-      <div className="main_row">
-        <div className="row_container">
-          <Input
-            disabled={disabled}
-            img="/social_media/facebook.png"
-            title="Linkedin"
-          />
+      <div className="main_row-social">
+        <div className="row_container-social">
+          <div className="tri" >
+           <Input
+           disabled={disabled}
+           img="/social_media/facebook.png"
+           title="LinkedIn"
+         />
+          </div>
+          
           <Input
             disabled={disabled}
             img="/social_media/github.png"
@@ -34,7 +37,7 @@ export function Socials() {
             title="Facebook"
           />
         </div>
-        <div className="row_container">
+        <div className="row_container-social">
           <Input
             disabled={disabled}
             img="/social_media/twitter.png"
@@ -52,7 +55,7 @@ export function Socials() {
           />
         </div>
       </div>
-      <div className="line" />
+      <div className="line-social" />
     </div>
   );
 }

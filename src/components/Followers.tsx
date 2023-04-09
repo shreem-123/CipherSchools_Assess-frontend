@@ -3,9 +3,9 @@ import data from "./data.json";
 
 export function Followers() {
   return (
-    <div className={"container"}>
+    <div className={"container-follow"}>
       <h4>Users Following you</h4>
-      <div className={"content"}>
+      <div className={"content-follow"}>
         {data.map((d) => {
           return (
             <FollowerUser

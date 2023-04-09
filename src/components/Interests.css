@@ -1,18 +1,18 @@
-.upper_row {
-  display: flex;
+.upper_row-int {
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
     justify-content: space-between;
     margin-bottom: 0.75rem;
     padding-inline: 1rem;
     margin-bottom: 1rem;
   }
-  .upper_row h4 {
+  .upper_row-int h4 {
     font-size: 0.9rem;
     font-weight: 700;
     color: #eee;
   }
-  .upper_row button {
+  .upper_row-int button {
     background-color: #f3912e;
     border: none;
     padding: 0.25rem 1.5rem;
@@ -21,7 +21,7 @@
     font-size: 0.8rem;
     cursor: pointer;
   }
-  .upper_row button :hover {
+  .upper_row-int button :hover {
     background-color: #f3902ec2;
   }
   .modal_background {
@@ -61,9 +61,9 @@
     height: 2.5rem;
     border-radius: 0.5rem;
     margin-bottom: 1rem;
-    display: flex;
+    /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
     justify-content: flex-start;
     padding-left: 1.25rem;
     cursor: pointer;
@@ -72,9 +72,9 @@
     background-color: #f3912e;
   }
   .bottom_row {
-    display: flex;
+    /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
     justify-content: flex-end;
     gap: 0.5rem;
     margin-top: 1rem;

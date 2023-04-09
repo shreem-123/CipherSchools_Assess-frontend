@@ -3,4 +3,7 @@ img {
     height: 1.5rem;
     border-radius: 50%;
   }
-  
+
+.user_container{
+  background-color: aliceblue;
+}

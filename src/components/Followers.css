@@ -1,10 +1,10 @@
-.container {
-  display: flex;
+.container-follow {
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
     padding: 1rem;
   }
-  .container .content {
+  .container-follow .content-follow {
     display: grid;
     grid-row-gap: 1rem;
     grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
@@ -12,9 +12,9 @@
     padding-block: 1rem;
   }
   .follower_container {
-    display: flex;
+    /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
     background-color: #090000;
     width: 12rem;
     padding: 1rem;

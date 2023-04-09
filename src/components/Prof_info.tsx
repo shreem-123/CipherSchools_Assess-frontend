@@ -10,16 +10,16 @@ export function ProfessionalInfo() {
   }
 
   return (
-    <div className={"container"}>
-      <div className={"upper_row"}>
+    <div className={"container-prof"}>
+      <div className={"upper_row-prof"}>
         <h4>PROFESSIONAL INFORMATION</h4>
         <button onClick={handleEditClick}>{disabled ? "Edit" : "Save"}</button>
       </div>
 
-      <div className={"row_container"}>
+      <div className={"row_container-prof"}>
         <Select
           disabled={disabled}
-          title="Highest eduaction"
+          title="Highest education"
           options={[
             "Primary",
             "Secondary",
@@ -36,11 +36,11 @@ export function ProfessionalInfo() {
             "College student",
             "Teaching",
             "Job",
-            "freelancing",
+            "Freelancing",
           ]}
         />
       </div>
-      <div className={"line"} />
+      <div className={"line-prof"} />
     </div>
   );
 }

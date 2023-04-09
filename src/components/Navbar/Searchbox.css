@@ -1,5 +1,5 @@
-.container {
-    background-color: #15181e;
+.container-search {
+    background-color: #eaebed;
     height: 2.2rem;
     min-width: 16rem;
     justify-content: space-between;
@@ -8,15 +8,15 @@
     padding-inline: 1rem;
 }
 @media only screen and (max-width: 750px) {
-    .container {
+    .container-search {
         display: none;
    }
 }
-.container .icon {
+.container-search .icon {
     fill: #fff;
     transform: translateY(2px);
 }
-.container input {
+.container-search input {
     height: 100%;
     width: 100%;
     border: none;

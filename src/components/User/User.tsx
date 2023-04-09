@@ -1,4 +1,4 @@
-import styles from "./User.module.scss";
+import "./User.css";
 import { useState } from "react";
 import { EditOutlined } from "@ant-design/icons";
 
@@ -17,14 +17,14 @@ export function User() {
 
   return (
     <>
-      <div className={styles.container}>
-        <div className={styles.userimg_container}>
-          <img src={BLANK_URL} className={styles.userimg} />
-          <button onClick={handleEditClick} className={styles.edit_btn}>
-            <EditOutlined  className={styles.edit_icon} size={12} />
+      <div className={"container-user"}>
+        <div className={"userimg_container"}>
+          <img src={BLANK_URL} className={"userimg"} />
+          <button onClick={handleEditClick} className={"edit_btn"}>
+            <EditOutlined  className={"edit_icon"} size={12} />
           </button>
         </div>
-        <div className={styles.userinfo_container}>
+        <div className={"userinfo_container"}>
           <p>Hello,</p>
           <h2>Cipher Schools</h2>
           <p>cipherschools@email.com</p>
@@ -51,29 +51,29 @@ export function User() {
       <>
         <div
           onClick={handleEditClick}
-          className={styles.modal_background}
+          className={"modal_background-user"}
         ></div>
-        <form className={styles.modal_form}>
+        <form className={"modal_form-user"}>
           <h4>Profile Update</h4>
-          <div className={styles.content}>
-            <div className={`${styles.userimg_container}`}>
-              <img src={img.preview} className={styles.userimg_big} />
+          <div className={"content"}>
+            <div className={`${"userimg_container"}`}>
+              <img src={img.preview} className={"userimg_big"} />
               <input
                 type="file"
                 name="file"
                 accept="image/png, image/jpg, image/jpeg"
                 id="file-input"
                 onChange={handleImageChange}
-                className={styles.file_input}
+                className={"file_input"}
               />
               <label
                 htmlFor="file-input"
-                className={`${styles.edit_btn} ${styles.edit_btn_big}`}
+                className={`${"edit_btn"} ${"edit_btn_big"}`}
               >
-                <EditOutlined className={styles.edit_icon} size={17} />
+                <EditOutlined className={"edit_icon"} size={17} />
               </label>
             </div>
-            <ul className={styles.input_container}>
+            <ul className={"input_container"}>
               <li>
                 <p>First Name</p>
                 <input placeholder="First Name" />
@@ -92,7 +92,7 @@ export function User() {
               </li>
             </ul>
           </div>
-          <div className={styles.btm_row}>
+          <div className={"btn_row"}>
             <button onClick={handleEditClick}>Cancel</button>
             <button>Save</button>
           </div>
